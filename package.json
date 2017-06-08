@@ -1,0 +1,23 @@
+{
+  "name": "test_task",
+  "version": "1.0.0",
+  "description": "test project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnnaIoanovna/Time-isMoney.git"
+  },
+  "author": "Anna Tsymbal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnnaIoanovna/Time-isMoney/issues"
+  },
+  "homepage": "https://github.com/AnnaIoanovna/Time-isMoney#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-scss": "^1.4.0"
+  }
+}

@@ -1,0 +1,462 @@
+$blue: #44c0c2;
+$grey: #f8f9fb;
+body {
+	font-family: 'Open Sans', sans-serif;;
+	margin: 0;
+	padding: 0;
+	color:#4e525d;
+	font-size: 14px;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+.wrap {
+	width: 95%;
+	max-width: 1180px;
+	margin: 0 auto;
+
+}
+.header {
+	min-height: 103px;
+	.logo {
+		font-family: 'Lobster', cursive;
+		font-size: 43px;
+		color: $blue;
+		float: left;
+		line-height: 100px;
+	}
+	.menu {
+		float: right;
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		li {
+			display: inline-block;
+			padding: 0 20px;
+
+		}
+		a {
+			font-size: 15px;
+			line-height: 100px;
+		}
+		li:hover  {
+			background: #f8f9fb;
+			color: $blue;
+			border-bottom: 3px solid $blue;
+		}
+	}
+}
+.mob-mnu {
+	display: none;
+}
+.stickytop {
+	position: fixed;
+	min-height: 73px;
+	width: 100%;
+	background: rgba(255, 255, 255, .5);
+	z-index: 10;
+	.logo{
+		line-height: 70px;
+	}
+	.menu a {
+		line-height: 70px;
+	}
+}
+.slider {
+	height: 566px;
+	
+}
+.owl-nav > div {
+	position: absolute;
+	top: 45%;
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	text-align: center;
+	line-height: 50px;
+	color: $blue;
+	background: #fff;
+	border-radius: 50%;
+	font-size: 40px;
+}
+.owl-prev {
+	left: 25px;
+}
+.owl-next {
+	right: 25px;
+}
+
+.slide1 {
+	background: url(../img/slide1.jpg) no-repeat;
+	background-size: cover;
+	height: 566px;
+}
+.text_wrap {
+	padding-top: 8%;
+}
+.slder_text {
+	color: #fff;
+	text-align: center;
+	
+
+	h1 {
+		font-size: 63px;
+		text-shadow: 0.5px 0.866px 0px rgb( 0, 0, 0 );
+		font-weight: 600;
+		margin: 0 auto;
+	}
+	span {
+		font-size: 23px;
+		display: block;
+		max-width: 380px;
+		margin: 20px auto 45px;
+	}
+	.button {
+		display: inline-block;
+		padding: 13px 40px;
+		font-size: 26px;
+		font-weight: 600;
+		border: 3px solid #fff;
+		border-radius: 5px;
+
+	}
+	.button:hover {
+		border: 3px solid $blue;
+
+	}
+}
+.team {
+	padding: 106px 0;
+	text-align: center;
+	
+	h2 {
+		font-size: 42px;
+		margin-bottom: 125px;
+		margin-top: 0;
+	}
+
+}
+.team_wrap {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.team_img {
+	width: 202px;
+	height: 202px;
+	background: #eeeef0;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+.team_item {
+	width: 245px;
+	cursor: pointer;
+		
+	h3 {
+		font-size: 22px;
+		margin: 0;
+	}
+	span {
+		margin-bottom: 32px;
+		display: block;
+	}
+}
+.hover_effect {
+	font-size: 43px;
+	color: #f46d6d;
+	padding-top: 37%;
+	opacity: 0;
+	transition: opacity .9s ease;
+}
+.team_item:hover .hover_effect {
+	opacity: 1;
+}
+.price {
+	padding: 95px 0;
+	background: #f1f1f1;
+}
+.prace_item {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	table {
+		min-width: 368px;
+		text-align: center;
+		vertical-align: middle;
+	}
+	th {
+	height: 75px;
+	font-size: 26px;
+	background: #485460;
+	color: #fff;
+	}
+	.grey {
+	background: #f8f9fb;
+	
+	height: 73px
+	}
+	span {
+		font-size: 20px;
+	}
+	td {
+		height: 45px;
+		background: #fff;
+	}
+	input {
+	background: #788492;
+	width: 170px;
+	height: 40px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 0;
+	margin: 30px auto;
+	}
+	input:hover {
+		background: $blue;	 
+	}
+}
+.prace_item .hov th {
+		background: $blue;
+	}
+.contacts {
+	background: url(../img/footer.jpg);
+	background-size: cover;
+	padding: 95px 0;
+	color: #fff;
+	text-align: center;
+	h2 {
+		font-size: 42px;
+		margin-bottom: 115px;
+	}
+	h3 {
+		font-size: 24px;
+		text-align: left;
+	}
+	p {
+		text-align: left;
+	}
+}
+.cont {
+	width: 50%;
+	float:left;
+	text-align: left;
+	a {
+		display: inline-block;
+		width: 42px;
+		height: 42px;
+		font-size: 21px;
+		border-radius: 50%;
+		margin-right: 15px;
+		text-align: center;
+		line-height: 42px;
+		transition: all .4s ease;
+	}
+	.fb {
+		background: #3b5997;
+	}
+	.twitter {
+		background: #3ec2f3;
+	}
+	.google {
+		background: #e44c41;
+	}
+	a:hover {
+		background: transparent;
+		transform: scale(1.2);		
+	}
+	.fb:hover {
+		color: #3b5997;
+	}
+	.twitter:hover {
+		color: #3ec2f3;
+	}
+	.google:hover {
+		color: #e44c41;
+	}
+}
+.text {
+	margin-bottom: 30px;
+	p {
+		max-width: 430px;
+	}
+}
+
+.wrap:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.info {
+	color: #bface2;
+}
+form {
+	position: relative;
+}
+.form {
+	text-align: left;
+	width: 50%;
+	float: left;
+	input, textarea{
+		display: inline-block;
+		padding-left: 25px;
+		background: #fff;
+		color: #c1c1c1;
+		border: 0;
+		border-radius: 5px;	
+		font-size: 16px;	
+		
+	}
+	input {
+		width: 280px;
+		height: 45px;
+		
+	}
+	.first_row {
+		width: 99%;
+		display: flex;
+		justify-content: space-between;
+		position: relative;
+	}
+	.name {
+			margin-right: 27px;
+		}
+	textarea {
+		display: block;
+		width: 95%;
+		margin-top: 30px;
+		height: 180px;
+		padding-top: 25px;
+
+	}
+	input:focus, textarea:focus {
+		background: #f1f1f1;
+	}
+	.button {
+		cursor: pointer;
+		color: #fff;
+		background: $blue;
+		width: 170px;
+		height: 50px;
+		margin-top: 30px;
+		text-align: center;
+		float: right;
+		font-size: 22px;
+		padding: 0;
+		
+
+	}
+	.button:hover {
+		background: #788492;
+	}
+	label.error {
+		position: absolute;
+		
+		color: red;
+	}
+	#name-error {
+		top: 45px;
+		left: 10px;
+	}
+	#email-error {
+		top: 45px;
+		left: 50%;
+	}left: 10px;
+	#message-error {
+		button: 0;
+
+	}
+}
+@media(max-width: 1162px) {
+	.prace_item {
+		justify-content: center;
+		table {
+			margin: 0 20px 30px 0;
+		} 
+	}
+	
+}
+@media(max-width: 1031px) {
+	.team_wrap {
+		justify-content:center;
+	}
+	.team_item {
+		width: 345px;
+	}
+}
+@media(max-width: 845px) {
+	.cont, .form {
+		width: 100%;
+		float: none;
+	}
+	.form {
+		margin-top: 30px;	
+		input {
+			width: 350px;
+		}																														
+	}
+}
+@media(max-width: 730px) {
+	.mob-mnu {
+		display: block;
+		position: absolute;
+		top: 30px;
+		right: 30px;
+		font-size: 40px;
+		cursor: pointer;
+		} 
+	.header{
+		.logo {
+			float: none;
+		}
+		.menu {
+			float: none;
+			text-align: center;
+			ul {
+			display: none;
+			}
+			li {
+				display: block;
+			}
+			a {
+				line-height: 40px
+			}
+			li:hover {
+				border-bottom: 0;
+			}
+		}
+	}	
+	.header .show ul{
+		display: block;
+	}
+	
+}
+@media(max-width: 530px) {
+	.form {
+		.first_row{
+			display: block;
+		}
+		input {
+			width: 96%;
+			margin-bottom: 30px;
+		}
+		#email-error {
+		    left: 10px;
+		    top: 114px;
+		}
+		textarea {
+			margin-top: 0;
+		}
+	}
+	
+}
