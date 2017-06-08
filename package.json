@@ -18,6 +18,7 @@
   "homepage": "https://github.com/AnnaIoanovna/Time-isMoney#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
     "gulp-scss": "^1.4.0"
   }
 }
